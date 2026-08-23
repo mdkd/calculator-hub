@@ -1,0 +1,5 @@
+# Required by Google AdSense to verify you are authorized to sell ad space on this domain.
+# Replace pub-XXXXXXXXXXXXXXXX with your real AdSense publisher ID from
+# AdSense > Account > Sites (or Account information), then redeploy.
+# See docs: https://support.google.com/adsense/answer/12171612
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

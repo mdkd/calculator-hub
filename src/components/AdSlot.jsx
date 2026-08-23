@@ -1,0 +1,55 @@
+import { useEffect } from 'react';
+import { ADS_ENABLED, ADSENSE_CLIENT_ID } from '../adConfig.js';
+
+// Placeholder integration point for Google AdSense (or any other ad network).
+//
+// Usage: <AdSlot position="top" /> | "after-calculator" | "sidebar" | ...
+//
+// Today (ADS_ENABLED is false until VITE_ADS_ENABLED=true and VITE_ADSENSE_CLIENT_ID
+// are set in .env.local — see .env.example):
+//   - in dev (`npm run dev`), renders a small, clearly labeled placeholder box so
+//     page layout and spacing can be designed around it.
+//   - in a production build, renders nothing, so real visitors never see a
+//     placeholder before ads are actually wired up.
+//
+// Once ready to go live: set env vars, and pass a real `slot` (AdSense ad unit ID)
+// to each <AdSlot /> call — no page restructuring needed.
+const POSITION_LABELS = {
+  top: 'Top Banner Ad',
+  'after-calculator': 'Ad',
+  sidebar: 'Sidebar Ad',
+};
+
+export default function AdSlot({ position, slot, className = '' }) {
+  useEffect(() => {
+    if (!ADS_ENABLED) return;
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch {
+      // AdSense script not loaded yet (e.g. blocked or not yet injected) — safe to ignore.
+    }
+  }, [position, slot]);
+
+  if (ADS_ENABLED) {
+    return (
+      <ins
+        className={`adsbygoogle ad-slot ad-slot--${position} ${className}`}
+        style={{ display: 'block' }}
+        data-ad-client={ADSENSE_CLIENT_ID}
+        data-ad-slot={slot}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+    );
+  }
+
+  if (import.meta.env.DEV) {
+    return (
+      <div className={`ad-slot ad-slot--placeholder ad-slot--${position} ${className}`} aria-hidden="true">
+        <span>Ad slot — {POSITION_LABELS[position] || position}</span>
+      </div>
+    );
+  }
+
+  return null;
+}
