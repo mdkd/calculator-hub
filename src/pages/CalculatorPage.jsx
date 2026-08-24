@@ -33,7 +33,7 @@ export default function CalculatorPage() {
 
         <CalculatorComponent />
 
-        <AdSlot position="after-calculator" />
+        <AdSlot position="after-calculator" slot="5809846940" />
 
         <CalculatorContent content={calc.content} />
       </div>
