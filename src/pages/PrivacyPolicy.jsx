@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
     <div className="page static-page">
       <Seo title="Privacy Policy" description="Calculator Hub's privacy policy covering data collection, cookies, analytics, and advertising." />
       <h1>Privacy Policy</h1>
-      <p className="page-subtitle">Last updated: [DATE — update before launch]</p>
+      <p className="page-subtitle">Last updated: August 24, 2026</p>
 
       <p>
         This Privacy Policy explains how Calculator Hub ("we", "us", or "our") collects, uses, and protects
