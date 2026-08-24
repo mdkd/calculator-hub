@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="content-block">
         <h2>Email</h2>
         <p>
-          <a href="mailto:hello@calculatorhub.example.com">hello@calculatorhub.example.com</a>
+          <a href="mailto:dilsekindness@gmail.com">dilsekindness@gmail.com</a>
         </p>
       </div>
 
