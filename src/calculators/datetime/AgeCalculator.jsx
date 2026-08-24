@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ResultCard from '../../components/ResultCard.jsx';
+import { parseLocalDate, formatIsoLocal } from './dateUtils.js';
 
 export default function AgeCalculator() {
   const [dob, setDob] = useState('');
@@ -16,7 +17,7 @@ export default function AgeCalculator() {
       return;
     }
 
-    const birthDate = new Date(dob);
+    const birthDate = parseLocalDate(dob);
     const today = new Date();
 
     if (birthDate > today) {
@@ -49,7 +50,7 @@ export default function AgeCalculator() {
           <input
             type="date"
             value={dob}
-            max={new Date().toISOString().split('T')[0]}
+            max={formatIsoLocal(new Date())}
             onChange={(e) => setDob(e.target.value)}
           />
         </label>

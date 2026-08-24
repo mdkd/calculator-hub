@@ -32,6 +32,20 @@ import StandardDeviationCalculator from './calculators/math/StandardDeviationCal
 import standardDeviationContent from './calculators/math/StandardDeviationCalculator.content.js';
 import AgeCalculator from './calculators/datetime/AgeCalculator.jsx';
 import ageContent from './calculators/datetime/AgeCalculator.content.js';
+import DateDifferenceCalculator from './calculators/datetime/DateDifferenceCalculator.jsx';
+import dateDifferenceContent from './calculators/datetime/DateDifferenceCalculator.content.js';
+import DateAddSubtractCalculator from './calculators/datetime/DateAddSubtractCalculator.jsx';
+import dateAddSubtractContent from './calculators/datetime/DateAddSubtractCalculator.content.js';
+import CountdownCalculator from './calculators/datetime/CountdownCalculator.jsx';
+import countdownContent from './calculators/datetime/CountdownCalculator.content.js';
+import DayOfWeekCalculator from './calculators/datetime/DayOfWeekCalculator.jsx';
+import dayOfWeekContent from './calculators/datetime/DayOfWeekCalculator.content.js';
+import BusinessDaysCalculator from './calculators/datetime/BusinessDaysCalculator.jsx';
+import businessDaysContent from './calculators/datetime/BusinessDaysCalculator.content.js';
+import TimeDurationCalculator from './calculators/datetime/TimeDurationCalculator.jsx';
+import timeDurationContent from './calculators/datetime/TimeDurationCalculator.content.js';
+import TimeZoneConverter from './calculators/datetime/TimeZoneConverter.jsx';
+import timeZoneConverterContent from './calculators/datetime/TimeZoneConverter.content.js';
 import WordUnscrambler from './calculators/wordtools/WordUnscrambler.jsx';
 import wordUnscramblerContent from './calculators/wordtools/WordUnscrambler.content.js';
 import AnagramSolver from './calculators/wordtools/AnagramSolver.jsx';
@@ -202,6 +216,55 @@ const calculatorsConfig = [
         description: 'Find your exact age in years, months, and days.',
         component: AgeCalculator,
         content: ageContent,
+      },
+      {
+        name: 'Date Difference Calculator',
+        slug: 'date-difference-calculator',
+        description: 'Find the exact number of days, or years/months/days, between two dates.',
+        component: DateDifferenceCalculator,
+        content: dateDifferenceContent,
+      },
+      {
+        name: 'Date Add/Subtract Calculator',
+        slug: 'date-add-subtract-calculator',
+        description: 'Add or subtract days, weeks, months, or years from a date.',
+        component: DateAddSubtractCalculator,
+        content: dateAddSubtractContent,
+      },
+      {
+        name: 'Countdown Calculator',
+        slug: 'countdown-calculator',
+        description: 'Live countdown to a future date and time.',
+        component: CountdownCalculator,
+        content: countdownContent,
+      },
+      {
+        name: 'Day of the Week Finder',
+        slug: 'day-of-week-finder',
+        description: 'Find out what day of the week any date falls on.',
+        component: DayOfWeekCalculator,
+        content: dayOfWeekContent,
+      },
+      {
+        name: 'Business Days Calculator',
+        slug: 'business-days-calculator',
+        description: 'Count the working days (excluding weekends) between two dates.',
+        component: BusinessDaysCalculator,
+        content: businessDaysContent,
+      },
+      {
+        name: 'Time Duration Calculator',
+        slug: 'time-duration-calculator',
+        description: 'Find the elapsed time between a start time and an end time.',
+        component: TimeDurationCalculator,
+        content: timeDurationContent,
+      },
+      {
+        name: 'Time Zone Converter',
+        slug: 'time-zone-converter',
+        description: 'Convert a date and time between time zones, accounting for daylight saving time.',
+        component: TimeZoneConverter,
+        content: timeZoneConverterContent,
       },
     ],
   },
