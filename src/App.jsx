@@ -16,7 +16,12 @@ export default function App() {
       <Navbar />
       {(import.meta.env.DEV || ADS_ENABLED) && (
         <div className="top-ad-wrapper">
-          <AdSlot position="top" />
+          <AdSlot
+            position="top"
+            slot="8411075071"
+            responsive={false}
+            style={{ display: 'inline-block', width: '728px', height: '90px' }}
+          />
         </div>
       )}
       <main className="main-content">
