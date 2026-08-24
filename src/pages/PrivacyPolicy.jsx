@@ -83,7 +83,7 @@ export default function PrivacyPolicy() {
       <h2>Contact us</h2>
       <p>
         If you have any questions about this Privacy Policy, please contact us at{' '}
-        <a href="mailto:hello@calculatorhub.example.com">hello@calculatorhub.example.com</a>.
+        <a href="mailto:dilsekindness@gmail.com">dilsekindness@gmail.com</a>.
       </p>
 
       <p className="page-subtitle">
