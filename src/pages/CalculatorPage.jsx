@@ -40,7 +40,7 @@ export default function CalculatorPage() {
 
       {SHOW_SIDEBAR && (
         <aside className="calculator-page-sidebar">
-          <AdSlot position="sidebar" />
+          <AdSlot position="sidebar" slot="8649808878" />
         </aside>
       )}
     </div>
