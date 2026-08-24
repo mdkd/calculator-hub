@@ -1,139 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.calculatorhub.example.com/</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/about</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/about</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/contact</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/contact</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/privacy-policy</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/privacy-policy</loc>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://www.calculatorhub.example.com/finance</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/finance</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/finance/sip-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/finance/sip-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/finance/emi-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/finance/emi-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/finance/fd-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/finance/fd-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/finance/rd-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/finance/rd-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/finance/gst-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/finance/gst-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/finance/income-tax-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/finance/income-tax-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/finance/nps-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/finance/nps-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/finance/epf-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/finance/epf-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/finance/gratuity-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/finance/gratuity-calculator</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.calculatorhub.example.com/math</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/math</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/math/percentage-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/math/percentage-calculator</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.calculatorhub.example.com/date-time</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/date-time</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/date-time/age-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/date-time/age-calculator</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.calculatorhub.example.com/word-tools</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/word-tools</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/word-tools/word-unscrambler</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/word-tools/word-unscrambler</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/word-tools/anagram-solver</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/word-tools/anagram-solver</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/word-tools/word-counter</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/word-tools/word-counter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/word-tools/character-counter</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/word-tools/character-counter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/word-tools/word-finder</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/word-tools/word-finder</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.calculatorhub.example.com/health</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/health</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/health/bmi-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/health/bmi-calculator</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.calculatorhub.example.com/converters</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/converters</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/converters/unit-converter</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/converters/unit-converter</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.calculatorhub.example.com/education</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/education</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/education/gpa-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/education/gpa-calculator</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.calculatorhub.example.com/business</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/business</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.calculatorhub.example.com/business/gst-calculator</loc>
+    <loc>https://calculator-hub-gamma.vercel.app/business/gst-calculator</loc>
     <priority>0.9</priority>
   </url>
 </urlset>
