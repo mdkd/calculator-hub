@@ -16,6 +16,20 @@ import GratuityCalculator from './calculators/finance/GratuityCalculator.jsx';
 import gratuityContent from './calculators/finance/GratuityCalculator.content.js';
 import PercentageCalculator from './calculators/math/PercentageCalculator.jsx';
 import percentageContent from './calculators/math/PercentageCalculator.content.js';
+import AverageCalculator from './calculators/math/AverageCalculator.jsx';
+import averageContent from './calculators/math/AverageCalculator.content.js';
+import RatioCalculator from './calculators/math/RatioCalculator.jsx';
+import ratioContent from './calculators/math/RatioCalculator.content.js';
+import FractionCalculator from './calculators/math/FractionCalculator.jsx';
+import fractionContent from './calculators/math/FractionCalculator.content.js';
+import LcmGcfCalculator from './calculators/math/LcmGcfCalculator.jsx';
+import lcmGcfContent from './calculators/math/LcmGcfCalculator.content.js';
+import PrimeCheckerCalculator from './calculators/math/PrimeCheckerCalculator.jsx';
+import primeCheckerContent from './calculators/math/PrimeCheckerCalculator.content.js';
+import QuadraticSolverCalculator from './calculators/math/QuadraticSolverCalculator.jsx';
+import quadraticSolverContent from './calculators/math/QuadraticSolverCalculator.content.js';
+import StandardDeviationCalculator from './calculators/math/StandardDeviationCalculator.jsx';
+import standardDeviationContent from './calculators/math/StandardDeviationCalculator.content.js';
 import AgeCalculator from './calculators/datetime/AgeCalculator.jsx';
 import ageContent from './calculators/datetime/AgeCalculator.content.js';
 import WordUnscrambler from './calculators/wordtools/WordUnscrambler.jsx';
@@ -124,6 +138,55 @@ const calculatorsConfig = [
         description: 'Find percentages of numbers, or what percent one is of another.',
         component: PercentageCalculator,
         content: percentageContent,
+      },
+      {
+        name: 'Average Calculator',
+        slug: 'average-calculator',
+        description: 'Find the mean, median, mode, and range of a list of numbers.',
+        component: AverageCalculator,
+        content: averageContent,
+      },
+      {
+        name: 'Ratio Calculator',
+        slug: 'ratio-calculator',
+        description: 'Simplify a ratio or solve a proportion for a missing value.',
+        component: RatioCalculator,
+        content: ratioContent,
+      },
+      {
+        name: 'Fraction Calculator',
+        slug: 'fraction-calculator',
+        description: 'Add, subtract, multiply, or divide fractions with automatic simplification.',
+        component: FractionCalculator,
+        content: fractionContent,
+      },
+      {
+        name: 'LCM & GCF Calculator',
+        slug: 'lcm-gcf-calculator',
+        description: 'Find the least common multiple and greatest common factor of a set of numbers.',
+        component: LcmGcfCalculator,
+        content: lcmGcfContent,
+      },
+      {
+        name: 'Prime Number Checker',
+        slug: 'prime-checker',
+        description: 'Check if a number is prime and see its prime factorization.',
+        component: PrimeCheckerCalculator,
+        content: primeCheckerContent,
+      },
+      {
+        name: 'Quadratic Equation Solver',
+        slug: 'quadratic-solver',
+        description: 'Solve ax² + bx + c = 0 for real or complex roots.',
+        component: QuadraticSolverCalculator,
+        content: quadraticSolverContent,
+      },
+      {
+        name: 'Standard Deviation Calculator',
+        slug: 'standard-deviation-calculator',
+        description: 'Calculate the mean, variance, and standard deviation of a data set.',
+        component: StandardDeviationCalculator,
+        content: standardDeviationContent,
       },
     ],
   },
