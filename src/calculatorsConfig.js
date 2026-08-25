@@ -60,6 +60,20 @@ import BMICalculator from './calculators/health/BMICalculator.jsx';
 import bmiContent from './calculators/health/BMICalculator.content.js';
 import UnitConverter from './calculators/converters/UnitConverter.jsx';
 import unitConverterContent from './calculators/converters/UnitConverter.content.js';
+import AreaConverter from './calculators/converters/AreaConverter.jsx';
+import areaConverterContent from './calculators/converters/AreaConverter.content.js';
+import VolumeConverter from './calculators/converters/VolumeConverter.jsx';
+import volumeConverterContent from './calculators/converters/VolumeConverter.content.js';
+import SpeedConverter from './calculators/converters/SpeedConverter.jsx';
+import speedConverterContent from './calculators/converters/SpeedConverter.content.js';
+import TimeUnitConverter from './calculators/converters/TimeUnitConverter.jsx';
+import timeUnitConverterContent from './calculators/converters/TimeUnitConverter.content.js';
+import DataStorageConverter from './calculators/converters/DataStorageConverter.jsx';
+import dataStorageConverterContent from './calculators/converters/DataStorageConverter.content.js';
+import NumberBaseConverter from './calculators/converters/NumberBaseConverter.jsx';
+import numberBaseConverterContent from './calculators/converters/NumberBaseConverter.content.js';
+import CurrencyConverter from './calculators/converters/CurrencyConverter.jsx';
+import currencyConverterContent from './calculators/converters/CurrencyConverter.content.js';
 import GPACalculator from './calculators/education/GPACalculator.jsx';
 import gpaContent from './calculators/education/GPACalculator.content.js';
 import GSTCalculator from './calculators/business/GSTCalculator.jsx';
@@ -338,6 +352,55 @@ const calculatorsConfig = [
         description: 'Convert length, weight, and temperature units.',
         component: UnitConverter,
         content: unitConverterContent,
+      },
+      {
+        name: 'Area Converter',
+        slug: 'area-converter',
+        description: 'Convert between square meters, acres, hectares, and more.',
+        component: AreaConverter,
+        content: areaConverterContent,
+      },
+      {
+        name: 'Volume Converter',
+        slug: 'volume-converter',
+        description: 'Convert between liters, gallons, cups, and other volume units.',
+        component: VolumeConverter,
+        content: volumeConverterContent,
+      },
+      {
+        name: 'Speed Converter',
+        slug: 'speed-converter',
+        description: 'Convert between km/h, mph, m/s, and knots.',
+        component: SpeedConverter,
+        content: speedConverterContent,
+      },
+      {
+        name: 'Time Unit Converter',
+        slug: 'time-unit-converter',
+        description: 'Convert between seconds, minutes, hours, days, and years.',
+        component: TimeUnitConverter,
+        content: timeUnitConverterContent,
+      },
+      {
+        name: 'Data Storage Converter',
+        slug: 'data-storage-converter',
+        description: 'Convert between bytes, KB, MB, GB, and TB — binary or decimal.',
+        component: DataStorageConverter,
+        content: dataStorageConverterContent,
+      },
+      {
+        name: 'Number Base Converter',
+        slug: 'number-base-converter',
+        description: 'Convert numbers between binary, octal, decimal, and hexadecimal.',
+        component: NumberBaseConverter,
+        content: numberBaseConverterContent,
+      },
+      {
+        name: 'Currency Converter',
+        slug: 'currency-converter',
+        description: 'Convert between currencies using example rates (not live).',
+        component: CurrencyConverter,
+        content: currencyConverterContent,
       },
     ],
   },
