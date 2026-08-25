@@ -1,31 +1,31 @@
 const content = {
   howItWorks: [
-    'Important: this converter uses static, hardcoded example exchange rates — it is not connected to a live rate feed. Real currency markets move constantly (often multiple times per second for major currency pairs), so the rates shown here will not match real-world rates and should never be used for actual transactions, budgeting, or financial decisions.',
-    'The calculation itself works the standard way currency converters do: every currency\'s rate is expressed relative to one US Dollar. Converting from currency A to currency B goes through USD as an intermediate step — your amount is first divided by currency A\'s rate to find its USD equivalent, then multiplied by currency B\'s rate to get the final converted amount.',
-    'This two-step "convert through a common reference currency" approach is exactly how real-world currency conversion works too, and it\'s why exchange rate tables are usually published relative to a major currency like USD rather than listing every possible pair directly.',
-    'This tool exists to demonstrate the conversion mechanics and give a rough, illustrative sense of relative currency values — for anything involving real money, always check a live, authoritative source (your bank, a licensed money transfer service, or a live financial data provider) for the actual current rate.',
+    'This converter fetches live exchange rates from a currency data API each time you load the page, so conversions reflect current market rates rather than a fixed, outdated table.',
+    'Every rate is expressed relative to one US Dollar. Converting from currency A to currency B goes through USD as an intermediate step — your amount is first divided by currency A\'s USD rate to find its USD equivalent, then multiplied by currency B\'s USD rate to get the final converted amount. This is the same two-step approach real financial data providers use, since it only requires storing one rate per currency rather than a rate for every possible pair.',
+    'If the live rate service can\'t be reached (for example, due to a network issue or the API being temporarily down), the calculator automatically falls back to a built-in static snapshot of approximate rates, and clearly flags on-screen that you\'re seeing fallback data rather than live rates. You can also manually retry fetching live rates at any time using the "Refresh" or "Try again" link shown above the form.',
+    'Exchange rates shown reflect the source used by the underlying data provider (typically updated at least once daily) — for large transactions, time-sensitive trades, or anything involving real money, always cross-check against your bank or a dedicated financial platform, since the rate you\'re actually offered can differ from the reference rate shown here (banks and exchange services typically add their own margin).',
   ],
-  example: 'Using the example rates in this tool (USD to INR at roughly 83.5): converting 100 USD gives approximately 8,350 INR. This is illustrative only — the actual real-time rate at any given moment will differ.',
+  example: 'If live rates show 1 USD ≈ 83.5 INR, converting 100 USD gives approximately 8,350 INR at that moment. Because these are live rates, the exact figure will shift over time as currency markets move — refreshing the page (or clicking "Refresh") re-fetches the latest available rate.',
   faq: [
     {
-      q: 'Are these real, current exchange rates?',
-      a: 'No. These are static example values that do not update automatically and will not match real-world rates. Do not use this tool for any real financial transaction — always check a live, authoritative source instead.',
+      q: 'Are these real, live exchange rates?',
+      a: 'Yes — the calculator fetches current rates from a live currency data API when the page loads. If that fetch fails for any reason, it automatically switches to a static fallback and clearly labels it as such, so you always know which kind of data you\'re looking at.',
     },
     {
-      q: 'Why doesn\'t this calculator use live rates like other currency converters?',
-      a: 'Live exchange rate data requires a paid or rate-limited third-party data feed, which this tool doesn\'t currently connect to. The conversion logic itself is correct and standard — only the underlying rate data is static rather than live.',
+      q: 'How often do the rates update?',
+      a: 'Rates are fetched fresh each time you load the page, and you can manually trigger another fetch at any time using the "Refresh" link. The underlying data source itself typically updates at least once a day, so rates may not reflect second-by-second market movements.',
+    },
+    {
+      q: 'Can I use this for real transactions or financial decisions?',
+      a: 'Use it as a helpful reference, but for anything involving real money, confirm the actual rate with your bank, card provider, or exchange service first — the rate you\'re actually offered will typically include a margin or fee on top of the reference rate shown here.',
+    },
+    {
+      q: 'What happens if the live rate service is down?',
+      a: 'The calculator automatically falls back to a built-in static snapshot of approximate rates and shows a clear on-page warning that you\'re seeing fallback (not live) data, so you\'re never silently given stale numbers without knowing it.',
     },
     {
       q: 'Why convert through USD instead of directly between two currencies?',
-      a: 'Expressing every currency\'s value relative to one common reference currency (USD) means you only need to store one rate per currency, rather than a rate for every possible pair — the same approach real financial data providers use.',
-    },
-    {
-      q: 'Which currencies are included?',
-      a: 'A set of commonly used major currencies: US Dollar, Euro, British Pound, Indian Rupee, Japanese Yen, Australian Dollar, Canadian Dollar, Chinese Yuan, UAE Dirham, and Singapore Dollar.',
-    },
-    {
-      q: 'Where should I check for real exchange rates?',
-      a: 'Your bank, a licensed currency exchange or money transfer service, or a live financial data source will have accurate, up-to-the-moment rates — those are the right places to check before making any real currency exchange decision.',
+      a: 'Expressing every currency\'s value relative to one common reference currency (USD) means only one rate per currency needs to be tracked, rather than a rate for every possible pair — the same approach real financial data providers use.',
     },
   ],
 };

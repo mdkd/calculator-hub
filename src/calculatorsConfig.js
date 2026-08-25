@@ -398,7 +398,7 @@ const calculatorsConfig = [
       {
         name: 'Currency Converter',
         slug: 'currency-converter',
-        description: 'Convert between currencies using example rates (not live).',
+        description: 'Convert between currencies using live exchange rates.',
         component: CurrencyConverter,
         content: currencyConverterContent,
       },
