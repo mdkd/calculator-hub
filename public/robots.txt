@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://calculator-hub-gamma.vercel.app/sitemap.xml
+Sitemap: https://quikcalc.in/sitemap.xml

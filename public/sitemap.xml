@@ -1,223 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/</loc>
+    <loc>https://quikcalc.in/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/about</loc>
+    <loc>https://quikcalc.in/about</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/contact</loc>
+    <loc>https://quikcalc.in/contact</loc>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/privacy-policy</loc>
+    <loc>https://quikcalc.in/privacy-policy</loc>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/finance</loc>
+    <loc>https://quikcalc.in/finance</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/finance/sip-calculator</loc>
+    <loc>https://quikcalc.in/finance/sip-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/finance/emi-calculator</loc>
+    <loc>https://quikcalc.in/finance/emi-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/finance/fd-calculator</loc>
+    <loc>https://quikcalc.in/finance/fd-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/finance/rd-calculator</loc>
+    <loc>https://quikcalc.in/finance/rd-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/finance/gst-calculator</loc>
+    <loc>https://quikcalc.in/finance/gst-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/finance/income-tax-calculator</loc>
+    <loc>https://quikcalc.in/finance/income-tax-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/finance/nps-calculator</loc>
+    <loc>https://quikcalc.in/finance/nps-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/finance/epf-calculator</loc>
+    <loc>https://quikcalc.in/finance/epf-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/finance/gratuity-calculator</loc>
+    <loc>https://quikcalc.in/finance/gratuity-calculator</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/math</loc>
+    <loc>https://quikcalc.in/math</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/math/percentage-calculator</loc>
+    <loc>https://quikcalc.in/math/percentage-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/math/average-calculator</loc>
+    <loc>https://quikcalc.in/math/average-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/math/ratio-calculator</loc>
+    <loc>https://quikcalc.in/math/ratio-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/math/fraction-calculator</loc>
+    <loc>https://quikcalc.in/math/fraction-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/math/lcm-gcf-calculator</loc>
+    <loc>https://quikcalc.in/math/lcm-gcf-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/math/prime-checker</loc>
+    <loc>https://quikcalc.in/math/prime-checker</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/math/quadratic-solver</loc>
+    <loc>https://quikcalc.in/math/quadratic-solver</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/math/standard-deviation-calculator</loc>
+    <loc>https://quikcalc.in/math/standard-deviation-calculator</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/date-time</loc>
+    <loc>https://quikcalc.in/date-time</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/date-time/age-calculator</loc>
+    <loc>https://quikcalc.in/date-time/age-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/date-time/date-difference-calculator</loc>
+    <loc>https://quikcalc.in/date-time/date-difference-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/date-time/date-add-subtract-calculator</loc>
+    <loc>https://quikcalc.in/date-time/date-add-subtract-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/date-time/countdown-calculator</loc>
+    <loc>https://quikcalc.in/date-time/countdown-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/date-time/day-of-week-finder</loc>
+    <loc>https://quikcalc.in/date-time/day-of-week-finder</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/date-time/business-days-calculator</loc>
+    <loc>https://quikcalc.in/date-time/business-days-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/date-time/time-duration-calculator</loc>
+    <loc>https://quikcalc.in/date-time/time-duration-calculator</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/date-time/time-zone-converter</loc>
+    <loc>https://quikcalc.in/date-time/time-zone-converter</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/word-tools</loc>
+    <loc>https://quikcalc.in/word-tools</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/word-tools/word-unscrambler</loc>
+    <loc>https://quikcalc.in/word-tools/word-unscrambler</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/word-tools/anagram-solver</loc>
+    <loc>https://quikcalc.in/word-tools/anagram-solver</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/word-tools/word-counter</loc>
+    <loc>https://quikcalc.in/word-tools/word-counter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/word-tools/character-counter</loc>
+    <loc>https://quikcalc.in/word-tools/character-counter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/word-tools/word-finder</loc>
+    <loc>https://quikcalc.in/word-tools/word-finder</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/health</loc>
+    <loc>https://quikcalc.in/health</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/health/bmi-calculator</loc>
+    <loc>https://quikcalc.in/health/bmi-calculator</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/converters</loc>
+    <loc>https://quikcalc.in/converters</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/converters/unit-converter</loc>
+    <loc>https://quikcalc.in/converters/unit-converter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/converters/area-converter</loc>
+    <loc>https://quikcalc.in/converters/area-converter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/converters/volume-converter</loc>
+    <loc>https://quikcalc.in/converters/volume-converter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/converters/speed-converter</loc>
+    <loc>https://quikcalc.in/converters/speed-converter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/converters/time-unit-converter</loc>
+    <loc>https://quikcalc.in/converters/time-unit-converter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/converters/data-storage-converter</loc>
+    <loc>https://quikcalc.in/converters/data-storage-converter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/converters/number-base-converter</loc>
+    <loc>https://quikcalc.in/converters/number-base-converter</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/converters/currency-converter</loc>
+    <loc>https://quikcalc.in/converters/currency-converter</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/education</loc>
+    <loc>https://quikcalc.in/education</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/education/gpa-calculator</loc>
+    <loc>https://quikcalc.in/education/gpa-calculator</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/business</loc>
+    <loc>https://quikcalc.in/business</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://calculator-hub-gamma.vercel.app/business/gst-calculator</loc>
+    <loc>https://quikcalc.in/business/gst-calculator</loc>
     <priority>0.9</priority>
   </url>
 </urlset>
